@@ -1,0 +1,110 @@
+.first__header {
+    font-family: $first-font;
+    font-weight: 300;
+    font-size: 62px;
+    line-height: 62px;
+    color: $first-header-color;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .first__header {
+        font-family: $first-header-font-min;
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 38px;
+    }
+}
+
+.first__text {
+    font-family: $first-font;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 37px;
+    color: $first-text-color
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .first__text {
+        font-size: 16px;
+        line-height: 27px;
+    }
+}
+
+.first__button {
+    font-family: $first-font;
+    font-weight: 300;
+    font-size: 40.1944px;
+    line-height: 68px;
+    color: $button-color;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .first__button {
+        font-size: 12.2752px;
+        line-height: 21px;
+    }
+}
+
+.second__header {
+    font-family: $second-font;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 50px;
+    color: $second-text-color;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .second__header {
+        font-size: 34px;
+        line-height: 34px;
+    }
+}
+
+.second__text {
+    font-family: $second-font;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 37px;
+    color: $second-text-color;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .second__text {
+        font-size: 16px;
+        line-height: 27px;
+    }
+}
+
+.second__say {
+    font-family: $second-font;
+    font-weight: 900;
+    font-size: 44.7911px;
+    line-height: 40px;
+    color: $second-text-color;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .second__say {
+        font-size: 38.6546px;
+        line-height: 35px;
+    }
+}
+
+.second__ok {
+    font-family: $second-font;
+    font-weight: 900;
+    font-size: 61.4163px;
+    line-height: 55px;
+    color: $second-text-color;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .second__ok:first-of-type {
+        font-weight: 400;
+    }
+
+    .second__ok {
+        font-size: 49.8561px;
+        line-height: 45px;
+    }
+}

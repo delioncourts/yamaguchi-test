@@ -1,3 +1,5 @@
-h1 {
-    background-color: blue;
-}
+@import '../vendor/normalize.css';
+@import '../scss/fonts.scss';
+@import '../scss/config.scss';
+@import '../scss/page.scss';
+@import '../scss/texts.scss';

@@ -1,0 +1,21 @@
+$first-background: #F3F3F3;
+$second-background: #181818;
+
+/*текст и кнопки*/
+$button-color: #000000;
+$first-header-color: #0B64FE;
+$first-text-color: #181818;
+$second-text-color: #FFFFFF;
+
+/*шрифты*/
+$first-font: 'Ubuntu', Arial, sans-serif;
+$first-header-font-min: 'Bebas Neue', Arial, sans-serif;
+$second-font: 'Ubuntu', Arial, sans-serif;
+
+@mixin flexAlignment($align, $direction) {
+    display: flex;
+    justify-content: $align;
+    flex-direction: $direction;
+}
+
+;
