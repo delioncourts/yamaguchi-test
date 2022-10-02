@@ -13,7 +13,6 @@
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .slide__first {
         align-items: center;
-        justify-content: center;
         grid-template-columns: 1fr;
 
         grid-template-areas:
@@ -27,7 +26,6 @@
 .first__header_grid_one {
     grid-column-start: 2;
     grid-area: B;
-    
     padding-bottom: 65px;
 }
 
@@ -78,7 +76,6 @@
     .first__container {
         width: 332.72px;
         height: 266.95px;
-       
     }
 }
 
@@ -86,6 +83,17 @@
     position: absolute;
     background-size: cover;
     width: 100%;
+}
+
+/*поднять и опустить стол*/
+.first__image_up {
+    transition: ease .5s;
+    margin-bottom: 50px;
+}
+
+.first__image_down {
+    transition: ease .5s;
+    margin-bottom: -50px;
 }
 
 .button__container {
@@ -113,14 +121,21 @@
     height: 150px;
     background: $button-background;
     border-radius: 50%;
+
+    &:hover {
+        background: $first-header-color;
+        transition: ease-in-out .5s;
+        cursor: pointer;
+    }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .button_container_round {
-        width: 120px;
-        height: 120px;
+        width: 100px;
+        height: 100px;
     }
 }
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .button_container_round {
         width: 80px;

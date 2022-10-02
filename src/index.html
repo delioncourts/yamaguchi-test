@@ -22,34 +22,39 @@
 
         <div class="first__container first__container_grid_four">
 
-            <img src="<%=require('./images/table-up.svg')%>" alt="верхняя часть стола" class="first__image">
+            <img src="<%=require('./images/table-up.svg')%>" alt="верхняя часть стола" class="first__image" id="first__image_table">
             <img src="<%=require('./images/table-down.svg')%>" alt="нижняя часть стола" class="first__image">
 
               
             <div class="button__container">
-                <button type="button" aria-label="поднять" class="button button_container_round">вверх</button>
-                <button type="button" aria-label="опустить" class="button button_container_round">вниз</button>
+                <button type="button" aria-label="поднять" class="button button_container_round" id="button_up">вверх</button>
+                <button type="button" aria-label="опустить" class="button button_container_round" id="button_down">вниз</button>
             </div>
         
         </div>
     </article>
-    <!--- 
+
     <article class="slide__second">
-        <h2 class="second__header">Yamaguchi Voice Control</h2>
-        <p class="second__text">Вы можете управлять программами массажа или самим креслом с помощью голосовых команд, приведённых ниже.
+        <h2 class="second__header second__header_grid_one">Yamaguchi Voice Control</h2>
+        <p class="second__text second__text_grid_two">Вы можете управлять программами массажа или самим креслом с помощью голосовых команд, приведённых ниже.
             Коснитесь кратковременно кнопки голосового управления, расположенной на левом подлокотнике, для запуска
             сеанса голосового управления. </p>
-        <p class="second__text">Произнесите одну из доступных команд. Если произнесённая команда распознана, вы услышите ответ и кресло
+        <p class="second__text second__text_grid_three">Произнесите одну из доступных команд. Если произнесённая команда распознана, вы услышите ответ и кресло
             приступит к выполнению запроса.</p>
 
-        <div></div>
+        <div class="second__levitate second__image_grid_four">
+            <img src="<%=require('./images/girl.svg')%>" alt="девушка" class="woman__levitate up-down" id="levitate-woman">
+            <img src="<%=require('./images/void.svg')%>" alt="черная дыра" class="void__levitate" id="levitate-void">
+        </div>
 
-        <div>
+        <img class="second__interface second__image_grid_five" src="<%=require('./images/interface.svg')%>" alt="телефон">
+       
+        <div class="second__subtitle second__text_grid_six">
             <p class="second__say">СКАЖИ:</p>
             <p class="second__ok">«ОКЕЙ, ЯМАГУЧИ»</p>
         </div>
     </article>
--->
+
 </body>
 
 </html>
