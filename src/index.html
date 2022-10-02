@@ -10,23 +10,30 @@
 <body class="page">
 
     <article class="slide__first">
-        <h1 class="first__header">Эргономика — ключ к успеху современного человека </h1>
-        <p class="first__text">Cтильная столешница , выполненной из экологически безопасного материала (ДСП), и усиленной стальной рамы
+        <h1 class="first__header first__header_grid_one">Эргономика — ключ к успеху современного человека </h1>
+        <p class="first__text first__text_grid_two">Cтильная столешница , выполненной из экологически безопасного материала (ДСП),
+            и усиленной стальной рамы
             не составит труда разместить на поверхности инновационного стола большое количество крупногабаритной
             техники: стол выдерживает нагрузку до 80 кг.</p>
-        <p class="first__text">Также столешница, обладающая меламиновым покрытием, хорошо переносит механические воздействия (царапины
+        <p class="first__text first__text_grid_three">Также столешница, обладающая меламиновым покрытием, хорошо переносит механические
+            воздействия (царапины
             или удары), при контакте с водой не разрушается, устойчиво переносит бытовые химические вещества
             и не выгорает под воздействием ультрафиолета.</p>
-        <div>
-           
-            <img src="<%=require('./images/table-up.svg')%>" alt="верхняя часть стола" class="#">
-            <img src="<%=require('./images/table-down.svg')%>" alt="нижняя часть стола" class="#">
 
-            <button type="button" aria-label="поднять" class="button first__button">вверх</button>
-            <button type="button" aria-label="опустить" class="button first__button">вниз</button>
+        <div class="first__container first__container_grid_four">
+
+            <img src="<%=require('./images/table-up.svg')%>" alt="верхняя часть стола" class="first__image">
+            <img src="<%=require('./images/table-down.svg')%>" alt="нижняя часть стола" class="first__image">
+
+              
+            <div class="button__container">
+                <button type="button" aria-label="поднять" class="button button_container_round">вверх</button>
+                <button type="button" aria-label="опустить" class="button button_container_round">вниз</button>
+            </div>
+        
         </div>
     </article>
-
+    <!--- 
     <article class="slide__second">
         <h2 class="second__header">Yamaguchi Voice Control</h2>
         <p class="second__text">Вы можете управлять программами массажа или самим креслом с помощью голосовых команд, приведённых ниже.
@@ -42,7 +49,7 @@
             <p class="second__ok">«ОКЕЙ, ЯМАГУЧИ»</p>
         </div>
     </article>
-
+-->
 </body>
 
 </html>

@@ -1,7 +1,8 @@
 $first-background: #F3F3F3;
 $second-background: #181818;
+$button-background: #A6FFFF;
 
-/*текст и кнопки*/
+/*текст*/
 $button-color: #000000;
 $first-header-color: #0B64FE;
 $first-text-color: #181818;
@@ -17,5 +18,3 @@ $second-font: 'Ubuntu', Arial, sans-serif;
     justify-content: $align;
     flex-direction: $direction;
 }
-
-;

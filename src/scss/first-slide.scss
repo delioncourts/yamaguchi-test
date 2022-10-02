@@ -1,0 +1,136 @@
+.slide__first {
+    margin: 0 auto;
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    grid-template-areas:
+        "A B"
+        "A C"
+        "A D";
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .slide__first {
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: 1fr;
+
+        grid-template-areas:
+            "B"
+            "C"
+            "A"
+            "D";
+    }
+}
+
+.first__header_grid_one {
+    grid-column-start: 2;
+    grid-area: B;
+    
+    padding-bottom: 65px;
+}
+
+.first__text_grid_two {
+    grid-column-start: 2;
+    grid-area: C;
+    padding-bottom: 30px;
+}
+
+.first__text_grid_three {
+    grid-column-start: 2;
+    grid-area: D;
+    padding-bottom: 50px;
+}
+
+.first__container_grid_four {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-area: A;
+    justify-items: center;
+    align-content: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .first__header_grid_one {
+        padding-bottom: 43px;
+    }
+
+    .first__text_grid_two {
+        padding-bottom: 0px;
+    }
+
+    .first__text_grid_three {
+        padding-bottom: 43px;
+    }
+}
+
+.first__container {
+    max-width: 1476.76px;
+    max-height: 984.7px;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    @include flexAlignment(center, column);
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .first__container {
+        width: 332.72px;
+        height: 266.95px;
+       
+    }
+}
+
+.first__image {
+    position: absolute;
+    background-size: cover;
+    width: 100%;
+}
+
+.button__container {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    display: flex;
+    gap: 70px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .button__container {
+        gap: 50px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .button__container {
+        gap: 20px;
+    }
+}
+
+.button_container_round {
+    width: 150px;
+    height: 150px;
+    background: $button-background;
+    border-radius: 50%;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .button_container_round {
+        width: 120px;
+        height: 120px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .button_container_round {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .button_container_round {
+        width: 61.15px;
+        height: 61.15px;
+    }
+}
