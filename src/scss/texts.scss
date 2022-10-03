@@ -61,16 +61,16 @@
     padding-top: 72.39px;
     max-width: 586.36px;
     width: 100%;
-    margin-left: 99px;
+    padding-left: 99px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .second__header {
         font-size: 34px;
         line-height: 34px;
-        padding-left: 16.12px;
         padding-top: 17.32px;
-        max-width: 227px;
+        max-width: 289.4px;
+        padding-left: 0px;
     }
 }
 
@@ -82,14 +82,15 @@
     color: $second-text-color;
     margin: 0;
     max-width: 586.36px;
+    padding-left: 99px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .second__text {
         font-size: 16px;
         line-height: 27px;
-        padding-left: 16.12px;
         max-width: 289.4px;
+        padding-left: 0px;
     }
 }
 
@@ -107,6 +108,7 @@
         font-size: 38.6546px;
         line-height: 35px;
         padding-left: 16.12px;
+        padding-bottom: 10px;
     }
 }
 
@@ -117,9 +119,7 @@
     line-height: 55px;
     color: $second-text-color;
     margin: 0;
-    padding-left: 159px;
-    max-width: 700px;
-    width: 100%;
+    padding-left: 20px;
     padding-bottom: 86px;
 }
 

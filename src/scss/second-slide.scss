@@ -174,8 +174,17 @@
     }
 }
 
+.second__subtitle {
+    padding-left: 99px;
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    width: 100%;
+}
+
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .second__subtitle {
         max-width: 305px;
+        padding-left: 0px;
     }
 }
